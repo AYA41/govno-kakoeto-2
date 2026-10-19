@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <style>
+        * {
+            font-family: "Roboto", sans-serif;
+        }
+
+        .logo {
+        }
+
+        body {
+            margin: 0;
+        }
+
+        header {
+            position: sticky;
+            top: 20px;
+            width: 100%;
+
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+
+
+            background-color: #1d1d1b;
+            padding: 20px 0;
+        }
+
+
+        nav a {
+            color: #ffffff;
+            font-size: 24px;
+            text-decoration: none;
+
+            font-weight: 600;
+        }
+
+        footer {
+            background-color: #1d1d1b;
+            padding: 80px 0;
+            color: #ffffff;
+        }
+
+        h2 {
+            font-size: 45px;
+            letter-spacing: 2px;
+            text-align: center;
+        }
+
+        p {
+            text-align: justify;
+            font-size: 30px;
+        }
+
+        footer p {
+            text-align: center;
+            text-transform: uppercase;
+            letter-spacing: 10px;
+        }
+
+        .container {
+            max-width: 1600px;
+            margin: 0 auto;
+        }
+
+        .hero {
+            height: 800px;
+            background-image: url("https://cs9.pikabu.ru/post_img/big/2017/05/10/8/149442342912056106.jpg");
+            background-color: #1d1d1b;
+            background-repeat: no-repeat;
+            background-attachment: scroll;
+            background-size: cover;
+            background-position: center;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: 1fr 2fr 1fr 3fr;
+            grid-gap: 10px;
+        }
+
+        .item {
+            background: coral;
+            padding: 20px;
+            text-align: center;
+        }
+
+        @media screen and (max-width: 900px) {
+            .logo {
+                width: 300px;
+            }
+
+            .container {
+                padding: 0 20px;
+            }
+        }
+
+        @media screen and (max-width: 600px) {
+            nav {
+                display: none;
+            }
+            
+            h2 {
+                font-size: 30px;
+            }
+
+            p {
+                font-size: 20px;
+            }
+
+            footer p {
+                font-size: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <a href="">
+            <img class="logo" src="https://optim.tildacdn.com/tild3636-3034-4266-b039-343137313165/-/resize/460x/-/format/webp/IThub_line_Kamchatka.png.webp" alt="">
+        </a>
+        
+
+        <nav>
+            <a href="#sec-1">lorem 1</a>
+            <a href="#sec-2">lorem 2</a>
+            <a href="#sec-3">lorem 3</a>
+            <a href="www.google.com" target="_blank">Vneshnaia</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+
+        </section>
+
+        <div class="grid">
+            <div class="item">1</div>
+            <div class="item">2</div>
+            <div class="item">3</div>
+            <div class="item">4</div>
+            <div class="item">5</div>
+            <div class="item">6</div>
+        </div>
+
+        <section class="theme-white" id="sec-1">
+            <div class="container">
+                <h2>Lorem ipsum dolor sit amet.</h2>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil quae iste ipsa aperiam exercitationem sint aut accusantium laudantium officiis, fuga quod reprehenderit id deserunt impedit, perspiciatis fugit quia at repudiandae!
+                    Impedit sint exercitationem ad eum commodi placeat quo atque omnis est ex ullam et repellat doloribus sunt reiciendis voluptatum vitae ea eius amet nemo, vel, ipsam consequatur iusto. Atque, porro!
+                    Natus dolores nam saepe optio, labore eos! Ratione molestias, culpa perferendis explicabo tempore expedita dolor perspiciatis? Cumque, tenetur perspiciatis numquam vel eos assumenda exercitationem laborum eveniet amet doloribus velit fuga.
+                    Laboriosam, nesciunt dolor illum, consequuntur harum distinctio fuga animi saepe quae sequi magnam culpa expedita eaque aspernatur est quo, aperiam pariatur sint perferendis nam totam unde ab a soluta. Delectus.
+                    Exercitationem, omnis facere fuga cumque mollitia placeat dolor saepe nisi doloremque repellendus sint, ea possimus asperiores beatae quas qui optio aperiam dolore temporibus iusto eos provident consequuntur officia necessitatibus. Suscipit.
+                </p>
+            </div>
+            
+        </section>
+
+        <section class="theme-black" id="sec-2">
+            <div class="container">
+                <h2>Lorem ipsum dolor sit amet.</h2>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil quae iste ipsa aperiam exercitationem sint aut accusantium laudantium officiis, fuga quod reprehenderit id deserunt impedit, perspiciatis fugit quia at repudiandae!
+                    Impedit sint exercitationem ad eum commodi placeat quo atque omnis est ex ullam et repellat doloribus sunt reiciendis voluptatum vitae ea eius amet nemo, vel, ipsam consequatur iusto. Atque, porro!
+                    Natus dolores nam saepe optio, labore eos! Ratione molestias, culpa perferendis explicabo tempore expedita dolor perspiciatis? Cumque, tenetur perspiciatis numquam vel eos assumenda exercitationem laborum eveniet amet doloribus velit fuga.
+                    Laboriosam, nesciunt dolor illum, consequuntur harum distinctio fuga animi saepe quae sequi magnam culpa expedita eaque aspernatur est quo, aperiam pariatur sint perferendis nam totam unde ab a soluta. Delectus.
+                    Exercitationem, omnis facere fuga cumque mollitia placeat dolor saepe nisi doloremque repellendus sint, ea possimus asperiores beatae quas qui optio aperiam dolore temporibus iusto eos provident consequuntur officia necessitatibus. Suscipit.
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum voluptatum numquam, quam amet molestias laborum, nisi odit sunt nostrum dicta voluptatem facilis eligendi quia ipsam necessitatibus id debitis. Adipisci, eos!
+                    Esse non voluptatibus maiores, nulla ratione quia reprehenderit totam incidunt obcaecati dolorem itaque eaque tempore magni dolorum eos laudantium? Itaque iusto maiores molestias nostrum est hic deleniti perferendis, eligendi reiciendis.
+                    Nulla ducimus voluptate maiores? Officia obcaecati, molestias voluptatibus, officiis exercitationem, eos amet voluptatem facere in maiores dolorum ducimus nihil? Possimus, dolorem? A possimus voluptate pariatur totam, illo debitis doloribus dolorem.
+                </p>
+            </div>
+            
+        </section>
+
+        <section class="theme-white" id="sec-3">
+            <div class="container">
+                <h2>Lorem ipsum dolor sit amet.</h2>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil quae iste ipsa aperiam exercitationem sint aut accusantium laudantium officiis, fuga quod reprehenderit id deserunt impedit, perspiciatis fugit quia at repudiandae!
+                    Impedit sint exercitationem ad eum commodi placeat quo atque omnis est ex ullam et repellat doloribus sunt reiciendis voluptatum vitae ea eius amet nemo, vel, ipsam consequatur iusto. Atque, porro!
+                    Natus dolores nam saepe optio, labore eos! Ratione molestias, culpa perferendis explicabo tempore expedita dolor perspiciatis? Cumque, tenetur perspiciatis numquam vel eos assumenda exercitationem laborum eveniet amet doloribus velit fuga.
+                    Laboriosam, nesciunt dolor illum, consequuntur harum distinctio fuga animi saepe quae sequi magnam culpa expedita eaque aspernatur est quo, aperiam pariatur sint perferendis nam totam unde ab a soluta. Delectus.
+                    Exercitationem, omnis facere fuga cumque mollitia placeat dolor saepe nisi doloremque repellendus sint, ea possimus asperiores beatae quas qui optio aperiam dolore temporibus iusto eos provident consequuntur officia necessitatibus. Suscipit.
+                </p>
+            </div>
+            
+        </section>
+    </main>
+
+    <footer>
+        <p>Copyright 2026</p>
+    </footer>
+</body>
+</html>
